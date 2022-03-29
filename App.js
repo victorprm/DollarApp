@@ -15,7 +15,7 @@ export default function App() {
     //TOTAL DOLLAR = QTDREAL / COTAÇÃO DO DIA DO DOLLAR
     totalDollar = parseFloat(totalReal) / parseFloat(cotacao);
 
-    alert("Victor dev: " + totalDollar.toFixed(2));
+    alert("O Total do dollar foi: " + totalDollar.toFixed(2));
   }
   return (
     <View style={styles.container}>
